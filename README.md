@@ -7,3 +7,4 @@ Instructions
 - pip install newrelic (Check other options if necessary https://docs.newrelic.com/install/python/#pip)
 - change ingest license in newrelic.ini
 - python3 adice.py or python adice.py
+- attach the value of each dice(result) to the transactions and add the sum of it to your pathpoint KPI's
