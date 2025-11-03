@@ -2,6 +2,7 @@ import random
 import time
 from datetime import datetime
 import newrelic.agent # Import the New Relic Agent
+newrelic.agent.initialize('newrelic.ini')
 
 # --- New Relic Initialization ---
 # The agent will look for a 'newrelic.ini' file in your current
